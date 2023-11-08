@@ -1,0 +1,66 @@
+.app__main_skill{
+    background-color: var(--color-black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding:5rem 10rem;
+}
+
+.app__main_skill-title{
+    width:80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    margin:20px 0;
+}
+.app__main_skill-titleText{
+    color:white;
+    font-size: 32px;
+}
+
+.app__main_skill-titleBar{
+    width:12rem;
+    height:1px;
+    background: var(--color-golden);
+}
+
+
+/*Skill 내용*/
+.app__main_skill-content{
+    width:80%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+.app__main_skill-content-titleBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin:10px 0;
+}
+
+.app__main_skill-content-title{
+    font-size: 28px;
+}
+
+.app__main_skill-content-titleBar{
+    height:2px;
+    width:10rem;
+    background-color: var(--color-golden);
+}
+
+
+.app__main_skill-content-imgBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.app__main_skill-content-imgBox > img{
+    margin:5px;
+}

@@ -1,0 +1,32 @@
+.app__careers{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    background-color: var(--color-black);
+    padding:7rem 10rem;
+}
+
+/*Career title*/
+.app__careers-title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin:3rem 0;
+}
+.app__careers-title > .app__careers-main-title{color:white;font-size: 50px;}
+.app__careers-title > .app__careers-title-bar{
+    width:350px;
+    height: 2px;
+    background: var(--color-golden);
+}
+
+/*Career content*/
+.app__careers-content-box{
+    padding:3rem 5rem;
+    background-color: white;
+}
+
+.app__careers-content{margin-bottom:3rem;}
+.app__careers-content .app__careers-content-title{font-size: 42px;}
+.app__careers-content > ul > .p__content{font-size: 26px;margin-left:2rem;}

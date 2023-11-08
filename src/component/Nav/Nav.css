@@ -1,0 +1,43 @@
+.app__navbar{
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-start;
+
+    position:fixed;
+    top:0;
+    left:0;
+    width:100px;
+    height:100%;
+    transition: 0.5s ease-in-out;
+}
+
+.app__navbar.show{
+    width:300px;
+}
+
+.app__navbar-smallscreen-overlay{
+    width:100%;
+    height:100vh;
+    background-color: var(--color-purple);
+
+    display: flex;
+    flex-direction: column;
+    margin-right:10px;
+}
+
+.app__navbar-smallscreen-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin:30px 15px;
+}
+
+.app__navbar-smallscreen-item{
+    font-size:23px;
+    margin-left:10px;
+}
+
+.app__navbar-smallscreen-item > a{
+    color:white;
+}
