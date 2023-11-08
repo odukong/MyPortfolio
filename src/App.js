@@ -7,7 +7,7 @@ import Career from './component/Career/Career';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route exact path="/" element={<Portfolio/>}/>
           <Route path="/project" element={<Project/>}/>
