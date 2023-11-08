@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/MyPortfolio/static/css/main.82cae914.css",
+    "main.js": "/MyPortfolio/static/js/main.964208e8.js",
+    "static/media/Intro_bg.png": "/MyPortfolio/static/media/Intro_bg.f8fe4f7ebd5edabd9cea.png",
+    "static/media/scent_fall.png": "/MyPortfolio/static/media/scent_fall.2c4b0359a6831028a016.png",
+    "static/media/scent_summer.png": "/MyPortfolio/static/media/scent_summer.3679ea064ba9674aa33f.png",
+    "static/media/scent_warm.png": "/MyPortfolio/static/media/scent_warm.ff1f34260cfd4e9c6d6c.png",
+    "static/media/scent_winter.png": "/MyPortfolio/static/media/scent_winter.c63b48c2010edb1643e3.png",
+    "static/media/kduck_main2.png": "/MyPortfolio/static/media/kduck_main2.d4aafc43f3f17eea312c.png",
+    "static/media/kduck_board.png": "/MyPortfolio/static/media/kduck_board.50baabd435040a3ebd4f.png",
+    "static/media/MyProfile.png": "/MyPortfolio/static/media/MyProfile.0aac6319f524d2fde830.png",
+    "static/media/scent_reason.png": "/MyPortfolio/static/media/scent_reason.9e3a4708fcacbe045514.png",
+    "static/media/kduck_sale.png": "/MyPortfolio/static/media/kduck_sale.ed302b788a788f274f62.png",
+    "static/media/kduck_artist.png": "/MyPortfolio/static/media/kduck_artist.d8a914e91ba6e32c3355.png",
+    "static/media/manage_delete.png": "/MyPortfolio/static/media/manage_delete.16c9e145e1e91be8e233.png",
+    "static/media/manage_create2.png": "/MyPortfolio/static/media/manage_create2.941e8cd430fc7cff53f1.png",
+    "static/media/kduck_board_detail.png": "/MyPortfolio/static/media/kduck_board_detail.d95c59c395f3a41f85bf.png",
+    "static/media/scent_mean.png": "/MyPortfolio/static/media/scent_mean.9f08786358fe170bb2c5.png",
+    "static/media/kduck_main1.png": "/MyPortfolio/static/media/kduck_main1.76431f4649f61ad8832e.png",
+    "static/media/coding_img.png": "/MyPortfolio/static/media/coding_img.37a639281bb67e6e9056.png",
+    "static/media/manage_create.png": "/MyPortfolio/static/media/manage_create.aa19520c654893b36d2c.png",
+    "static/media/sign_signinok.png": "/MyPortfolio/static/media/sign_signinok.96f32cea0e125f4900e3.png",
+    "static/media/manage_main.png": "/MyPortfolio/static/media/manage_main.7698dfd5dd85355df011.png",
+    "static/media/sign_signup.png": "/MyPortfolio/static/media/sign_signup.c0b48fe1b1bba5cd32f5.png",
+    "static/media/Linux.png": "/MyPortfolio/static/media/Linux.e54b31f0a7fc8e16796d.png",
+    "static/media/sign_signnook.png": "/MyPortfolio/static/media/sign_signnook.1c76aa4f12ab325bda7c.png",
+    "static/media/HtmlCSSJS.png": "/MyPortfolio/static/media/HtmlCSSJS.3043d85a2a432967da67.png",
+    "index.html": "/MyPortfolio/index.html",
+    "main.82cae914.css.map": "/MyPortfolio/static/css/main.82cae914.css.map",
+    "main.964208e8.js.map": "/MyPortfolio/static/js/main.964208e8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82cae914.css",
+    "static/js/main.964208e8.js"
+  ]
+}
