@@ -1,24 +1,2 @@
-# portfolio_vue
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# Portfolio_Vue
+### main branch에 존재하는 포트폴리오를 React에서 새롭게 Vue 변환한 프로젝트이다. 
