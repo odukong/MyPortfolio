@@ -1,0 +1,46 @@
+.app__main_intro{
+    width:100%;
+}
+
+.app__main_intro-content{
+    background: url('../../../assets/images/Intro_bg.png');
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height:80vh;
+    padding:7rem 3rem;
+}
+
+.app__main_intro-content > * {
+    margin:2rem 0;
+    padding:1rem 0;
+}
+
+.app__main_intro-greeting{
+    color:white;
+    font-size: 52px;
+    white-space: pre-line;
+    text-align: center;
+}
+
+.app__main_intro-down{
+    animation: moveUpDown 1s infinite;
+}
+
+
+
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10%); /* 아래로 내려갈 거리 */
+    }
+}
