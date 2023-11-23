@@ -10,6 +10,6 @@
 - ### Project
 ![img](./public/READMEImg2.png)
 ![img](./public/READMEImg3.png)
-- ### Carrer
+- ### Career
 ![img](./public/READMEImg4.png)
 
