@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.ce29bf32.css",
+    "main.css": "/MyPortfolio/static/css/main.da6ce412.css",
     "main.js": "/MyPortfolio/static/js/main.ba5d20e9.js",
     "static/media/Intro_bg.png": "/MyPortfolio/static/media/Intro_bg.f8fe4f7ebd5edabd9cea.png",
     "static/media/scent_fall.png": "/MyPortfolio/static/media/scent_fall.2c4b0359a6831028a016.png",
@@ -27,11 +27,11 @@
     "static/media/sign_signnook.png": "/MyPortfolio/static/media/sign_signnook.1c76aa4f12ab325bda7c.png",
     "static/media/HtmlCSSJS.png": "/MyPortfolio/static/media/HtmlCSSJS.3043d85a2a432967da67.png",
     "index.html": "/MyPortfolio/index.html",
-    "main.ce29bf32.css.map": "/MyPortfolio/static/css/main.ce29bf32.css.map",
+    "main.da6ce412.css.map": "/MyPortfolio/static/css/main.da6ce412.css.map",
     "main.ba5d20e9.js.map": "/MyPortfolio/static/js/main.ba5d20e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce29bf32.css",
+    "static/css/main.da6ce412.css",
     "static/js/main.ba5d20e9.js"
   ]
 }
