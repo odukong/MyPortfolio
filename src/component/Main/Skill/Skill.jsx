@@ -30,8 +30,6 @@ const Box=styled.div`
     flex-direction:column;
     justify-content:flex-start;
 
-    width:100%;
-    height:100%;
     margin:1rem;
     padding:1rem 2rem;
     border-radius:10px;

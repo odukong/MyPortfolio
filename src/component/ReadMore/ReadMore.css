@@ -18,8 +18,8 @@
     display: flex;
     flex-direction: column;
     height: 70vh;
-    width: 50%; /* 모달의 너비를 조절합니다. 필요에 따라 조절하세요. */
-    margin: auto; /* 가운데 정렬을 위해 추가했습니다. */
+    width: 50%; 
+    margin: auto; 
     overflow-y: scroll;
     background: rgb(255, 248, 223);
     padding:1rem 3rem; 
@@ -89,3 +89,25 @@
     object-fit: contain;
 }
 
+@media screen and (max-width:768px){
+    .content-name{font-size: 36px;}
+    .content-description{font-size: 16px;}
+    .content-pages .content-page .content-page-title{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:650px){
+    .modal-content{
+        top:0;
+        left:0;
+    }
+    .modal-content .modal-content-text{
+        margin-top:1rem;
+    }
+    .content-name{font-size: 32px;}
+    .content-description{font-size: 15px;}
+    .content-pages .content-page .content-page-title{
+        font-size: 16px;
+    }
+}

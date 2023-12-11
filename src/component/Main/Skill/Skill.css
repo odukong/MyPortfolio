@@ -4,7 +4,8 @@
     flex-direction: column;
     align-items: center;
 
-    padding:5rem 10rem;
+    padding:2rem 0;
+    width:100%;
 }
 
 .app__main_skill-title{
@@ -30,12 +31,13 @@
 
 /*Skill 내용*/
 .app__main_skill-content{
-    width:80%;
+    width:70%;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items:flex-start;
+    flex-wrap: wrap;
 }
 
 .app__main_skill-content-titleBox{
@@ -63,4 +65,32 @@
 }
 .app__main_skill-content-imgBox > img{
     margin:5px;
+}
+
+@media screen and (max-width:768px) {
+    .app__main_skill-title{
+        width:70%;
+    }
+
+    .app__main_skill-titleText{
+        font-size: 28px;
+    }
+    
+    .app__main_skill-titleBar{
+        width:10rem;
+    }
+}
+
+@media screen and (max-width:650px){
+    .app__main_skill-title{
+        width:55%;
+    }
+
+    .app__main_skill-content{
+        width:60%;
+    }
+
+    .app__main_skill-content-title{
+        font-size: 25px;
+    }
 }

@@ -15,12 +15,13 @@
     justify-content: center;
 
     height:80vh;
-    padding:7rem 3rem;
+    padding:8rem 3rem;
 }
 
 .app__main_intro-content > * {
     margin:2rem 0;
     padding:1rem 0;
+
 }
 
 .app__main_intro-greeting{
@@ -34,7 +35,35 @@
     animation: moveUpDown 1s infinite;
 }
 
+@media screen and (max-width:2000px){
 
+}
+
+@media screen and (max-width:1150px) {
+    .app__main_intro-greeting{
+        font-size: 44px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .app__main_intro-content{
+        margin-left:50px;
+    }
+    .app__main_intro-greeting{
+        font-size: 40px;
+    }
+    
+}
+
+@media screen and (max-width:650px){
+    .app__main_aboutme{
+        flex-direction: column;
+        width:100%;
+    }
+    .app__main_intro-greeting{
+        font-size: 35px;
+    }
+}
 
 @keyframes moveUpDown {
     0%, 100% {
@@ -44,3 +73,5 @@
         transform: translateY(10%); /* 아래로 내려갈 거리 */
     }
 }
+
+

@@ -5,7 +5,8 @@
     justify-content: center;
     align-items: center;
 
-    padding:5rem 10rem;
+    padding:2rem 0;
+    width:100%;
 }
 
 .app__main_futurePlan-titleBox{
@@ -77,5 +78,72 @@
     .content-list{
         margin-left:10px;
         font-weight: bold;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .app__main_futurePlan-titleBox{
+        width:70%;
+    }
+    
+    .app__main_futurePlan-title{
+        font-size: 28px;
+    }
+    
+    .app__main_futurePlan-titleBar{
+        width:10rem;
+    }
+
+    .app__main_futurePlan-content{
+        width:70%;
+    }
+    
+    .app__main_futurePlan-contentBox{
+        margin:0 30px;
+    }
+    
+    .app__main_futurePlan-content-title > .content-title{
+        padding:0.5rem 1.5rem;
+        border-radius: 20px;
+        font-size: 20px;
+    }
+
+    .app__main_futurePlan-content-lists > .content-lists{
+        padding:0.3rem 1.3rem;
+        .content-list{
+            font-size:15px;
+        }
+    }
+}
+
+@media screen and (max-width:650px){
+    .app__main_futurePlan-titleBox{
+        width:60%;
+    }
+    
+    .app__main_futurePlan-title{
+        font-size: 25px;
+    }
+
+    .app__main_futurePlan-content{
+        flex-direction: column;
+    }
+
+    .app__main_futurePlan-contentBox{
+        margin:30px;
+    }
+
+    .app__main_futurePlan-content-title > .content-title{
+        padding:0.8rem 2rem;
+        border-radius: 25px;
+        font-size: 25px;
+    }
+
+    .app__main_futurePlan-content-lists > .content-lists{
+        padding:0.5rem 1.5rem;
+        .content-list{
+            font-size:16px;
+        }
     }
 }

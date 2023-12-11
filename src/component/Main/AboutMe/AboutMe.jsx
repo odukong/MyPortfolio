@@ -8,6 +8,7 @@ const AboutMe = (props) => {
         window.open("https://github.com/odukong","_blank");
     }
     return (
+        
         <div className='app__main_aboutme' ref={props.element}>
             <div className='app__main_aboutme-img'>
                 <img src={images.myProfile} alt="profile"/>
@@ -29,6 +30,7 @@ const AboutMe = (props) => {
                 </div>
             </div>
         </div>
+        
     );
 }; 
 
