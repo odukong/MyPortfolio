@@ -42,3 +42,15 @@
 .app__navbar-smallscreen-item > a{
     color:white;
 }
+
+@media screen and (max-width:650px){
+    .app__navbar{
+        width:100px;
+    }
+    .app__navbar-smallscreen-overlay{
+        width:60%;
+    }
+    .app__navbar-smallscreen-items{
+        margin:25px 10px;
+    }
+}
